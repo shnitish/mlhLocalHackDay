@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local hack day</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="scripts/semantic-ui-css/semantic.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link href="css/slick-theme.css" rel="stylesheet" />
+    <style>
+      html {
+        overflow-y: hidden;
+      }
+      /* Remove the navbar's default margin-bottom and rounded borders */
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+      .row.content {
+        height: 450px;
+      }
+
+      /* Set gray background color and 100% height */
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          padding-top: 20px;
+          background-color: #f1f1f1;
+          height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+          background-color: #555;
+          color: white;
+          padding: 15px;
+        }
+        .row.content {
+          height: auto;
+        }
+      }
+      .st0 {
+        fill: none;
+        stroke: white;
+        stroke-width: 2;
+        stroke-miterlimit: 10;
+      }
+
+      text {
+        color: white;
+        font-size: 50px;
+        -moz-transform: translate(20%, 65%);
+      }
+      .imageStyle {
+        height: 96%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .centreText {
+        display: flex;
+        width: 85%;
+        justify-content: center;
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        .hovering {
+          -webkit-transform: translate(20%, 65%);
+          -webkit-transform-origin: 50% 50% !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/techevents.html">Tech Events</a></li>
+            <li><a href="/hackathons.html">Hackathons</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/login.html"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="imageStyle" style="background-image: url('./images/img.jpeg')">
+      <div class="centreText">
+        <div class="ui icon action input">
+          <input
+            type="text"
+            style="width: 600px; z-index: 999;"
+            placeholder="Search..."
+          />
+          <button class="ui icon button">
+            <i class="search icon big"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/semantic-ui-css/semantic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

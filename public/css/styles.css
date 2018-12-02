@@ -1,0 +1,137 @@
+#about .aboutMe .aboutPicture{position:relative;overflow:hidden;}
+#about .aboutPicture .picone{z-index:2;}
+#about .aboutPicture .picone img{margin-left:35%;height:314px;margin-top:20%;box-shadow:0 6px 13px rgba(0, 0, 0, 0.15);}
+#about .aboutPicture .pictwo img{height:410px;}
+#about .aboutMe button.btn.dow-cv{background:transparent;text-transform:initial;padding:6px 0;border-radius:0;border-bottom:1px solid #404040;transition:all 0.5s ease 0s;font-size:15px;cursor:pointer;}
+#about .aboutMe button.btn.dow-cv:hover{border-bottom:1px solid #f1d37d;}
+#about .aboutMe button.btn.dow-cv:focus,
+#about .aboutMe button.btn.dow-cv:active{box-shadow:0 0 0 0;outline:0;}
+#about .aboutMe .box-statistics{margin-top:4%;}
+#about .aboutMe .statistics-item hr.line-statistics-item{position:relative;width:75px;}
+#about .aboutMe .statistics-item h2{font-family:'Raleway', sans-serif;font-size:42px;}
+#about .aboutMe .statistics-item p{text-transform:capitalize;}
+#hospital1{margin-left:35%;height:314px;margin-top:20%;box-shadow:0 6px 13px rgba(0, 0, 0, 0.15);}
+#services{background-color:#f3f3f3;}
+#services .container:nth-of-type(2){margin-top:5%;}
+#services .boxServices .item-services{background:white;padding:60px 30px;cursor:pointer;text-align:center;border-radius:5px;transition:all 0.5s ease 0s;overflow:hidden;}
+#services .boxServices .item-services:hover{background:#f1d37d;box-shadow:0 6px 13px rgba(0, 0, 0, 0.15);}
+#services .boxServices i.icon{font-size:55px;color:#f1d37d;}
+#services .boxServices h2{font-family:'Raleway', sans-serif;font-size:26px;}
+#services .boxServices p{margin:auto;width:70%;}
+#colorB{color:black !important;}
+#resume{background-image:url(../Pictures/dvc/ipad.png);background-position:right top, right top;background-repeat:no-repeat;}
+#resume .container:nth-of-type(2){overflow:hidden;margin-top:3%;}
+#resume .resume-item .box-resume-left .resume-left-item{text-align:right;}
+#resume .resume-item .box-resume-left .resume-left-item h2{font-family:'Montserrat', sans-serif;font-weight:500;text-transform:capitalize;font-size:32px;}
+#resume .resume-item .box-resume-left .resume-left-item p{text-transform:capitalize;font-size:16px;}
+#resume .resume-item .box-resume-right{padding-left:60px;}
+#resume .resume-item .box-resume-right .resume-right-item h2{font-family:'Raleway', sans-serif;text-transform:capitalize;}
+#resume .resume-item .box-resume-right .resume-right-item h2::after{content:'';position:absolute;width:16px;height:16px;left:16px;top:30px;background:#fff;border:3px solid #f1d37d;border-radius:50%;z-index:1;}
+#resume .resume-item .box-resume-right .resume-right-item p{margin-bottom:35px;line-height:2;width:70%;}
+#resume .resume-item .box-resume-right .resume-right-item p:after{content:'';background:#f1d37d;position:absolute;width:2px;height:calc(100%);left:24px;top:32px;opacity:.5;}
+#education{background:url(../Pictures/backgrounds/man-person-hat-fur.jpg);background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;position:relative;overflow:hidden;}
+#education .overlayEducation{background:#0a0a0a42;position:absolute;height:200vh;width:100%;}
+#education .boxItemsEdu{transition:all 0.5s ease 0s;padding-bottom:30px;padding-top:30px;background:white;cursor:pointer;}
+#education .boxItemsEdu:hover{box-shadow:0 0 20px rgba(255, 255, 255, 0.64);}
+#education .itemsEduSchool{margin-top:15px;}
+#education .boxInfoSchool h3{font-family:'Raleway', sans-serif;text-transform:capitalize;font-weight:500;}
+#education .boxItemsEdu .itemsEdu p{width:80%;}
+#education .boxInfoLogoSchool{text-align:center;margin-top:1%;}
+#education .itemsEduSchool i.icon{text-align:center;font-size:65px;margin-top:2%;color:#f1d37d;}
+#education .boxInfoSchool{padding:0;}
+#education .lineEdu{width:80px;margin:0 0 0;display:inline-block;}
+#portfolio .titles-section{margin-bottom:3%;}
+#portfolio .titles-section hr.line-title-center{margin-bottom:2%;}
+#portfolio .titles-section p{margin:auto;}
+#portfolio .portfolioItem{position:relative;}
+#portfolio .portfolioItem .picturePortfolio{position:absolute;width:100%;}
+#portfolio .portfolioItem .picturePortfolio img{height:300px;width:100%;}
+#portfolio .portfolioItem .infoPortfolio{background:rgba(0, 0, 0, 0.34);transition:all 0.5s ease 0s;position:relative;text-align:center;cursor:pointer;height:300px;width:100%;opacity:0;}
+#portfolio .portfolioItem .infoPortfolio:hover{opacity:1;}
+#portfolio .portfolioItem .infoProject{position:relative;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);color:white;}
+#portfolio .portfolioItem .infoProject h2.nameProject{font-family:'Raleway', sans-serif;text-transform:uppercase;letter-spacing:1px;}
+#portfolio .portfolioItem .infoProject p.projectInfoCategory{font-family:'Raleway', sans-serif;text-transform:capitalize;font-size:18px;}
+#portfolio .all-project{text-align:center;clear:both;}
+#portfolio .all-project button.btn.see-all{font-family:'Raleway', sans-serif;transition:all 0.5s ease 0s;background:transparent;text-transform:capitalize;font-size:20px;margin-top:4%;}
+#portfolio .all-project button.btn.see-all:hover,
+#portfolio .all-project button.btn.see-all:focus{box-shadow:0 0 0 0;color:#eccb59;outline:0;}
+#portfolio .all-project button.btn.see-all i.icon{font-size:25px;color:#eccb59;position:absolute;margin-left:1%;}
+#skills{background:url(../Pictures/backgrounds/pexels-photo-256621.jpeg);background-repeat:no-repeat;background-attachment:fixed;background-position:center;background-size:cover;position:relative;overflow:hidden;}
+#skills .boxItemsSkills{transition:all 0.5s ease 0s;padding-bottom:30px;padding-top:30px;background:white;}
+#skills .boxItemsSkills:hover{box-shadow:0 0 20px rgba(255, 255, 255, 0.64);}
+#skills .overlaySkills{background:#0a0a0a42;position:absolute;height:200vh;width:100%;}
+#skills .items-progress .progress{background-color:#404040;border-radius:0;height:2px;margin-top:20px;width:100%;}
+#skills .items-progress .progress-bar{background-color:#d0af51;border-radius:0;}
+#skills .items-progress .progress-contents{padding:3% 0;}
+#skills .items-progress .progress-contents h3{font-family:'Raleway', sans-serif;text-transform:capitalize;display:inline;}
+#skills .items-progress .progress-contents p{text-transform:capitalize;display:inline-block;display:none}
+#skills .items-progress .progress-contents .percent{font-family:'Raleway', sans-serif;display:inline-block;font-weight:400;font-size:18px;float:right;}
+#skills .items-progress .percent-progress-bar-one{width:97%;}
+#skills .items-progress .percent-progress-bar-two{width:78%;}
+#skills .items-progress .percent-progress-bar-three{width:76%;}
+#testimonials{position:relative;overflow:hidden;}
+#testimonials .testimonials-picbox img{height:410px;box-shadow:15px 15px 0px #f1d37d;}
+#testimonials .testimonials-box .titles-section{text-align:center;margin-bottom:5%;}
+#testimonials .multiple-items{position:relative;overflow:hidden;}
+#testimonials .item-testimonial-card{box-shadow:0 6px 13px rgba(0, 0, 0, 0.15);position:relative;}
+#testimonials .card-up{background:#4db6ac !important;height:120px;}
+#testimonials .color-e91e63{background:#e91e63 !important;}
+#testimonials .color-673AB7{background:#673AB7 !important;}
+#testimonials .color-00BCD4{background:#00BCD4 !important;}
+#testimonials .color-56a027{background:#56a027 !important;}
+#testimonials .card-body hr.line-title-left{margin-top:-19px;width:110px;}
+#testimonials .avatar{border-radius:50%;height:120px;width:120px;margin:-65px auto 0;overflow:hidden;border:5px solid #fff;}
+#testimonials .card-body{padding:0 10px;}
+#blogs{background:#F3F3F3;}
+#blogs .titles-section{margin-bottom:5%;}
+#blogs .itemPost{transition:all 0.5s ease 0s;position:relative;text-align:center;background:white;line-height:2;}
+#blogs .itemPost:hover{box-shadow:0 6px 13px rgba(0, 0, 0, 0.15);}
+#blogs .itemPost .itemPostImg{position:relative;overflow:hidden;}
+#blogs .itemPost .itemPostImg img{transition:all 0.7s ease 0s;height:300px;}
+#blogs .itemPost .itemPostInfo{padding:5px 20px 30px 20px;}
+#blogs .itemPost .itemPostInfo h2 a{transition:all 0.5s ease 0s;text-transform:capitalize;color:#404040;}
+#blogs .itemPost .itemPostInfo h2 a:hover{color:#f1d481;}
+#blogs .itemPost .itemPostInfo h2 a:hover,
+#blogs .itemPost .itemPostInfo h2 a:active,
+#blogs .itemPost .itemPostInfo h2 a:focus{text-decoration:none;}
+#blogs .post-meta > *{color:#f1d37d;font-size:15px;transition:all 0.5s ease 0s;}
+#blogs .post-meta > *:hover{color:#404040;}
+#contact .container:nth-of-type(2){margin-top:3%;}
+#contact form{padding-right:3%;padding-left:1%;}
+#contact form input{margin-left:2%;float:left;width:48%;margin-bottom:4%;margin-top:10px;box-shadow:0 0 0;border-top:0;border-left:0;border-right:0;background:transparent;border-radius:0;border-color:rgba(64, 64, 64, 0.65);color:rgba(64, 64, 64, 0.65);transition:all 0.5s ease;text-transform:capitalize;}
+#contact form input:hover,
+#contact form input:focus,
+#contact form input:active,
+#contact form textarea.form-control:hover,
+#contact form textarea.form-control:focus,
+#contact form textarea.form-control:active{box-shadow:none;border-color:#404040;color:black;}
+#contact form textarea.form-control{border-color:rgba(64, 64, 64, 0.65);border-radius:0;margin-left:10px;height:275px;}
+#contact form input::-webkit-input-placeholder,
+#contact form textarea.form-control::-webkit-input-placeholder{color:black;opacity:1 !important;transition:all 0.5s ease;}
+#contact form input:focus::-webkit-input-placeholder,
+#contact form textarea.form-control:focus::-webkit-input-placeholder{color:black;opacity:1 !important;}
+#contact form .send-message{transition:all 0.5s ease 0s;border:1px solid #828282;background:transparent;margin-left:10px;margin-top:20px;padding:2.5% 7%;border-radius:0;}
+#contact form .send-message:active,
+#contact form .send-message:focus{box-shadow:none;outline:0;}
+#contact form .send-message:hover{background:#d9bf77;border-color:#d9bf77;}
+#contact .box-info-contact .info-contacts{padding-top:50px;background:#7d9bf1;color:white;padding-left:30px;padding-bottom:50px;}
+#contact .box-info-contact i.icon{font-size:24px;}
+#contact .box-info-contact .info-contacts h4.titles-sections-contacts{text-transform:capitalize;display:inline-block;line-height:2;margin-left:2%;}
+body{padding:0;margin:0;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+img{object-fit:cover;width:100%;}
+textarea{resize:vertical;}
+.sectionPadding{padding:70px 0;}
+.sectionPaddingVertical{padding-bottom:70px;padding-top:70px;}
+.titleSection{font-family:'Raleway', sans-serif;font-weight:500;text-transform:capitalize;line-height:45px;font-size:35px;}
+.titles-section{text-align:center;}
+.titles-section h2{font-family:'Raleway', sans-serif;font-weight:500;text-transform:capitalize;line-height:45px;font-size:35px;position:relative;z-index:2;}
+.ventures-title{text-align:-webkit-auto;}
+hr.line-title-left{width:200px;margin:0 0 15px;margin-top:-28px;}
+hr.line-title-center{width:200px;margin:auto;position:relative;margin-top:-28px;}
+p{line-height:2;}
+.slick-slide{cursor:all-scroll;outline:none}
+#loader{background-color:#ffffff;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999;}
+#loader .loader-inner{left:0;position:absolute;top:50%;width:100%;text-align:center;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);}
+#loader .loader-inner span{font-family:'Raleway', sans-serif;font-size:50px;letter-spacing:10px;text-transform:uppercase;color:#404040;transition:all 0.5s ease 0s;}
+#loader-typed-strings h2{visibility:hidden;}
